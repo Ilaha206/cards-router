@@ -7,6 +7,7 @@ import Contact from './Pages/Contact'
 import Detail from './Pages/Detail'
 import Home from './Pages/Home'
 import Nopage from './Pages/Nopage'
+import Login from "./Pages/Login";
 
 function App() {
  
@@ -20,6 +21,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/detail/:id" element={<Detail />} />
+          <Route path="/login" element={<Login />} />
           <Route path="*" element={<Nopage />} />
         </Route>
       </Routes>
